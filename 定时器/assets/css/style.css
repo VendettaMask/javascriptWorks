@@ -1,0 +1,40 @@
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.swarper{
+    width: 97vw;
+    height: 97vh;
+    display: flex;
+    Justify-content: center;
+    Align-items: center;
+    flex-direction: column;
+}
+.timer{
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #f4f4f4;
+    font-size: 26px;
+    background-color: #030303;
+    border-radius: 8px 8px 0px 0px; 
+}
+.btn{
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0px 0px 8px 8px;
+    background-color: lightgrey;
+}
+.btn button{
+    
+    width: 60px;
+    text-align: center;
+    font-size: 15px;
+    /* background-color: #f3f3f3; */
+    border-radius: 5px;
+}
+.btn button:hover{
+    background-color: lightblue;
+}
