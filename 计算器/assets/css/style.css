@@ -1,0 +1,76 @@
+.body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0; 
+}
+.swarper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.display{
+    height: 120px;
+    width: 560px;
+    flex-direction: column;
+    background-color:lightgrey;
+    border-radius: 16px 16px 0px 0px;
+    line-height: 120px;
+    font-size: 45px;
+    text-align: right;
+    padding: 20px;
+    font-weight: bolder;
+    overflow: auto;
+}
+.app{
+    width: 600px;
+    height: 220px;
+    padding-bottom: 10px;
+    background-color: #232323;
+    border-radius: 0px 0px 16px 16px;
+    display: flex; 
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.app button{
+    outline: none;
+    border-radius: 6px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 3px;
+    padding: 0;
+    border: none;
+    width: 100px;
+    height: 45px;
+}
+.numbers{
+    width: 60%;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.numbers button:hover{
+    background-color: lightgrey;
+}
+.action{
+    width: 40%;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.action button{
+    background-color: orange;
+}
+.action #del{
+    background-color: lightgreen;
+}
+.action #ac{
+    background-color: lightgreen;
+}
+.action button:hover{
+    background-color: lightgrey;
+}
