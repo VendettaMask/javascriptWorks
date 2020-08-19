@@ -1,0 +1,59 @@
+.body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+.swarper{
+    width: 97vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #F3F3F3; */
+}
+.question{
+    width: 600px;
+    /* background-color: red; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+}
+.question .answers{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px 0px;
+}
+.question .answers label{
+    padding: 15px;
+    margin: 5px 0px;
+    background-color: #C4C4C4;
+}
+.question .answers label.correct {
+    background-color: #24A484;
+}
+.question .answers label.incorrect {
+    background-color: #AF1E2D;
+}
+.hide{
+    display: none;
+}
+.action{
+    display: flex;
+	justify-content: flex-end;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    border-radius: 15px;
+    background-color: #eeeeee; 
+    box-shadow: 0 0 3px #333;
+    /* -webkit-box-shadow: 0 0 9px #333; */
+}
